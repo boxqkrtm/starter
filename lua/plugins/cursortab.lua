@@ -6,7 +6,7 @@ return {
     config = function()
       require("cursortab").setup({
         provider = {
-          type = "fim",
+          type = "sweep",
           url = "http://localhost:11434",
           completion_path = "/v1/completions",
           model = "sweepai/sweep-next-edit",
